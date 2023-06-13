@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GRID PRACTICE</title>
+  </head>
+  <body>
+    <div style="display: grid; grid-template-columns: 100px 100px">
+      <div style="background-color: dodgerblue">div 1</div>
+      <div style="background-color: purple">
+        div 2
+        <p>off the grid</p>
+      </div>
+    </div>
+    <div
+      style="
+        display: grid;
+        grid-template-columns: 100px 100px 200px;
+        margin-top: 30px;
+      "
+    >
+      <div style="background-color: dodgerblue">div 1</div>
+      <div style="background-color: purple">
+        div 2
+        <p>off the grid</p>
+      </div>
+      <div style="background-color: dodgerblue">div 1</div>
+      <div style="background-color: purple">div 4</div>
+    </div>
+
+    <div
+      style="display: grid; grid-template-columns: 100px 1fr; margin-top: 30px"
+    >
+      <div style="background-color: dodgerblue">div 1</div>
+      <div style="background-color: purple">1fr</div>
+    </div>
+
+    <div
+      style="
+        display: grid;
+        grid-template-columns: 100px 1fr 2fr;
+        margin-top: 30px;
+      "
+    >
+      <div style="background-color: dodgerblue">div 1</div>
+      <div style="background-color: purple">1fr</div>
+      <div style="background-color: dodgerblue">2fr</div>
+    </div>
+
+    <div
+      style="
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-top: 30px;
+        column-gap: 20px;
+        row-gap: 40px;
+      "
+    >
+      <div style="background-color: dodgerblue; height: 100px">1fr</div>
+      <div style="background-color: purple">1fr</div>
+      <div style="background-color: dodgerblue">1fr</div>
+      <div style="background-color: purple; height: 100px">1fr</div>
+      <div style="background-color: dodgerblue">1fr</div>
+      <div style="background-color: purple">1fr</div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,103 @@
+body {
+    text-align: center;
+  }
+
+  img {
+    width: 300px;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    size: 10px;
+    height: auto;
+  }
+  p {
+    font-size: 40px;
+  }
+  .username {
+    font-weight: bold;
+    font-family: Poppins ;
+    text-align: center;
+  }
+  em {
+    font-size: 50px;
+    font-style: oblique;
+    color: cornflowerblue;
+    font-weight: bolder;
+  }
+  button {
+    font-weight: bolder;
+    font-size: large;
+    color: azure;
+    font-style: oblique;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    border-style: groove;
+    border-collapse: collapse;
+    margin-right: 80px;
+    border-radius: 6px;
+    border: none;
+    transition: all 0.4s;
+    box-shadow: 2px 8px 18px rgba(0, 0, 0, 0.4);
+    font-family: Arial;
+    text-align: center;
+  }
+
+  .positive {
+    background-color: cornflowerblue;
+    border-color: blue;
+    transition: all 0.4s;
+    cursor: help;
+  }
+
+  .negative {
+    font-weight: bolder;
+    color: aliceblue;
+    font-style: italic;
+    font-size: large;
+    background-color: darkred;
+    border-color: red;
+    cursor: not-allowed;
+    transition: all 0.4s;
+    margin-left: auto;
+  }
+
+  .goblin {
+    background-color: greenyellow;
+    color: black;
+    margin-left: auto;
+  }
+
+  .negative:hover {
+    background-color: red;
+    box-shadow: 2px 8px 18px rgba(0, 0, 0, 0);
+  }
+
+  .positive:hover {
+    background-color: blue;
+    box-shadow: 2px 8px 18px rgba(0, 0, 0, 0);
+  }
+
+  .goblin:hover {
+    background-color: limegreen;
+    box-shadow: 2px 8px 18px rgba(0, 0, 0, 0);
+  }
+
+  h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    text-align: center;
+    font-weight: bolder;
+  }
+
+  .cuidado-goblin {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    background-color: rgb(157, 255, 0);
+  }
+
+  .cuidado {
+    text-decoration-style: double;
+  }
